@@ -1,0 +1,44 @@
+header, div.left, div.right {
+	border: 1px solid black;
+	color: white;
+}
+
+header { 
+	width: 100%; 
+	overflow: auto; 
+	background-color: gold;
+}
+
+div.left { 
+	width: 30%;
+	float: left;
+	text-align: left; 
+}
+
+div.right { 
+	width: 60%;
+	float: right; 
+	text-align: right;
+}
+
+div#container { 
+	width: 100%; 
+}
+
+div.item {
+	width: 100%;
+	margin: 2px;
+	background-color: orange;
+	color:black;
+}
+
+div.clear {
+	clear: both;
+}
+
+@media screen and (min-width: 800px) {
+	div.item {
+		float: left;
+		width: 30%;
+	}
+}
